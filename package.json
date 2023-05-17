@@ -1,0 +1,15 @@
+{
+  "name": "post_backend",
+  "version": "1.0.0",
+  "description": "simply backend in json-server",
+  "main": "index.js",
+  "scripts": {
+    "server":"json-server --port 3000 data/db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0"
+  }
+}
